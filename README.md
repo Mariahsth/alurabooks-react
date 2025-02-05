@@ -1,6 +1,11 @@
 # Getting Started with Create React App
 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Alurabooks
+![headers-pesquisa](https://github.com/user-attachments/assets/9cf13aa1-8eee-496d-a024-d611538603ff)
+![ultimos-lancamentos](https://github.com/user-attachments/assets/62b83709-18f5-4bc0-856b-15fdb7b94016)
 
 ## Available Scripts
 
