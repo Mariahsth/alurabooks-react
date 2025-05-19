@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { useEffect, useState } from "react";
 import { getLivros } from "../../servicos/livros";
 import { postFavorito } from "../../servicos/favoritos";
+import livroImg from '../imagens/livro.png';
 
 
 const PesquisaContainer=styled.section`
@@ -77,7 +78,7 @@ function Pesquisa(){
             />
             {livrosPesquisados.map( livro => (
                 <Resultado onClick={() => insertFavorito(livro.id)}>
-                    <img src={livro.src} alt="imagem livro"/>
+                    <img src={livroImg} alt="imagem livro"/>
                     <p>{livro.nome}</p>
                 </Resultado>
             ))}
