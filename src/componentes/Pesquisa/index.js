@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { useEffect, useState } from "react";
 import { getLivros } from "../../servicos/livros";
 import { postFavorito } from "../../servicos/favoritos";
-import livroImg from '../imagens/livro.png';
+import livroImg from '../../imagens/livro.png';
 
 
 const PesquisaContainer=styled.section`
