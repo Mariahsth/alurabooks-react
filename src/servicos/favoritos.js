@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const favoritosAPI= axios.create({baseURL: 'https://livraria-api-rest-mongodb-express.onrender.com/livros/favoritos'});
+const favoritosAPI= axios.create({baseURL: 'https://livraria-api-rest-mongodb-express.onrender.com/favoritos'});
 
 async function getFavoritos(){
     const response = await favoritosAPI.get('/');
