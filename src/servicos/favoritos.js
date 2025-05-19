@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const favoritosAPI= axios.create({baseURL: import.meta.env.VITE_API_BASE_URL + '/favoritos'});
+const favoritosAPI= axios.create({baseURL: 'https://livraria-api-rest-mongodb-express.onrender.com/livros/favoritos'});
 
 async function getFavoritos(){
     const response = await favoritosAPI.get('/');
